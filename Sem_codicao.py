@@ -23,4 +23,4 @@ if __name__ == '__main__':
     for p in processos:
         p.join()
 
-    print(f"\n[Versão 1] Estoque final (com condição de corrida): {estoque}")
+    print(f"\n[Versão 1] Estoque final (sem condição de corrida): {estoque}")
